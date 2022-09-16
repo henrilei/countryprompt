@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Popup Mad Lib</title>
+    <link href="countryprompt.css" rel="stylesheet" />
+    <link href"https://fonts.googleapis.com/css?family=Reenie+Beaniedisplay=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+<script>
+tank = window.prompt('type the model of a tank, like for example Panzerkampfwagen IV E or M4A6');
+country = window.prompt('type the country which manufactured the tank, for example Nazi-Germany or United States of America')
+tankrole = window.prompt('type the tankrole of the tank you speficied, for example Medium Tank or Heavy Tank')
+era = window.prompt('type the era the tank was manufactured in, for example The Early Second World War or Late Second World War')
+
+let msg = "<p style='color:greenyellow;'>" + tank + " was produced by " + country + " with the role as a " + tankrole + " in the " + era + ".</p>"
+document.write(msg);
+
+
+console.log(msg)
+
+</script>
+</body>
+
+</html>
